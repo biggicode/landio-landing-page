@@ -77,3 +77,14 @@ textarea {
   font: inherit;
   width: 100%;
 }
+
+html {
+  font-family: var(--ff-quicksand);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white);
+}
+
+/* Custom */
