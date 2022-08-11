@@ -125,6 +125,32 @@ h3 {
   transform: translateY(-2px);
 }
 
+.btn-primary {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+}
+
+.btn-primary:is(:hover, :focus) {
+  --majorelle-blue: hsl(245, 67%, 55%);
+  box-shadow: 0 3px 10px hsla(245, 67%, 69%, 0.5);
+}
+
+.btn-outline {
+  border: 1px solid var(--majorelle-blue);
+  color: var(--majorelle-blue);
+}
+
+.btn-outline:is(:focus, :hover) {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  box-shadow: 0 3px 10px hsla(245, 67%, 69%, 0.5);
+}
+
+.btn-secondary {
+  background-color: hsla(245, 67%, 69%, 0.15);
+  color: var(--majorelle-blue);
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -227,7 +253,10 @@ h3 {
   outline-color: var(--majorelle-blue);
 }
 
-.btn-primary {
-  background-color: var(--majorelle-blue);
-  color: var(--white);
+.hero .btn-primary {
+  margin-inline: auto;
+}
+
+.hero-banner_img {
+  width: 100%;
 }
