@@ -260,3 +260,36 @@ h3 {
 .hero-banner_img {
   width: 100%;
 }
+
+/* About Section */
+
+.about {
+  padding-block: var(--section-padding);
+}
+
+.about-content {
+  margin-bottom: 30px;
+}
+
+.about-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--lavender-web);
+  display: grid;
+  place-items: center;
+  color: var(--majorelle-blue);
+  font-size: 40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.about-title {
+  margin-bottom: 10px;
+}
+
+.about-text {
+  color: var(--cool-gray);
+  font-weight: var(--fw-500);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
