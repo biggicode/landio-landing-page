@@ -459,6 +459,8 @@ h3 {
   flex-wrap: wrap;
 }
 
+/* Blog */
+
 .blog {
   padding-block: var(--section-padding);
 }
@@ -506,4 +508,24 @@ h3 {
 
 .blog-title {
   font-size: var(--fs-3);
+  color: var(--independence);
+}
+
+.blog-text {
+  color: var(--cool-gray);
+  font-size: var(--fs-6);
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.blog-link-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--majorelle-blue);
+  font-weight: var(--fw-600);
+}
+
+.blog-link-btn:is(:hover, :focus) {
+  color: var(--sapphire);
 }
