@@ -875,4 +875,43 @@ footer .logo {
   .about-list li:nth-child(odd) {
     transform: translateY(50px);
   }
+
+  .features-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 90px;
+  }
+
+  .features-wrapper:not(:last-child) {
+    margin-bottom: 100px;
+  }
+
+  .features-wrapper:last-child .features-banner {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  /* Blog */
+
+  .blog-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog .section-text {
+    margin-bottom: 50px;
+  }
+
+  /* Contact */
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .contact-form {
+    margin-bottom: 0;
+  }
 }
