@@ -914,4 +914,24 @@ footer .logo {
   .contact-form {
     margin-bottom: 0;
   }
+
+  .footer-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .footer-brand {
+    margin-bottom: 0;
+    max-width: 300px;
+  }
+
+  .footer-list {
+    width: 140px;
+  }
+
+  .social-list {
+    justify-content: flex-start;
+  }
 }
