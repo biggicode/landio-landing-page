@@ -707,3 +707,32 @@ footer .logo {
 .copyright a:is(:hover, :focus) {
   color: var(--white);
 }
+
+/* Responsive */
+
+@media (min-width: 450px) {
+  /* Hero */
+
+  .hero-form {
+    position: relative;
+  }
+
+  .email-field {
+    margin-bottom: 0;
+    padding-right: 155px;
+  }
+
+  .hero .btn-primary {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding-block: 12.5px;
+  }
+
+  /* About */
+
+  .about-card .card-text {
+    max-width: 300px;
+    margin-inline: auto;
+  }
+}
