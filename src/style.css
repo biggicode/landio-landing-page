@@ -736,3 +736,19 @@ footer .logo {
     margin-inline: auto;
   }
 }
+
+@media (min-width: 576px) {
+  :root {
+    --fs-1: 52px;
+  }
+  .container {
+    max-width: 525px;
+    margin-inline: auto;
+  }
+
+  .section-text {
+    max-width: 450px;
+    margin-inline: auto;
+    margin-bottom: 80px;
+  }
+}
