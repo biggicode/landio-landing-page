@@ -752,3 +752,40 @@ footer .logo {
     margin-bottom: 80px;
   }
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .section-text {
+    max-width: 645px;
+  }
+
+  .hero :is(.hero-text, .form-text, .hero-form) {
+    max-width: 520px;
+  }
+
+  .hero-banner {
+    max-width: 600px;
+    margin-inline: auto;
+  }
+
+  .about-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-form .wrapper-flex {
+    display: flex;
+    gap: 30px;
+  }
+  .wrapper-flex .input-wrapper {
+    width: 50%;
+  }
+
+  /* footer */
+
+  .footer-link-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
